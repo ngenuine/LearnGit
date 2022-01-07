@@ -30,7 +30,7 @@
 Инструкции выполняются в интерактивном режиме, мы сразу видим результат. Минус интерактивного режима — ничего не сохраняется после закрытия или Shell →  Restart Shell.
 
 <p align="center">
-  <img src="python_screenshot_1.png">
+  <img src="./python_screenshots/python_screenshot_1.png">
 </p>
 
 2. Файловый (стандартный) — пишем инструкцию в файлик и запускаем его на исполнение.
@@ -38,7 +38,7 @@
 В Shell File → New file. Записываем инструкции в файл и выполняем его в меню Run.
 
 <p align="center">
-  <img src="python_screenshot_2.png">
+  <img src="./python_screenshots/python_screenshot_2.png">
 </p>
 
 ## Числа и операции над ними
@@ -56,7 +56,7 @@ print(5 > 10)  # два числа сравниваются, результат�
 В Python существует много встроенных объектов
 
 <p align="center">
-  <img src="python_screenshot_3.png">
+  <img src="./python_screenshots/python_screenshot_3.png">
 </p>
 
 Числа в python представлены двумя типами объектов: int (целые) и float (дробные, числа с плавающей точкой).
@@ -68,17 +68,17 @@ print(5 > 10)  # два числа сравниваются, результат�
 Над числами можно выполнять операции
 
 <p align="center">
-  <img src="python_screenshot_4.png">
+  <img src="./python_screenshots/python_screenshot_4.png">
 </p>
 <p align="center">
-  <img src="python_screenshot_5.png">
+  <img src="./python_screenshots/python_screenshot_5.png">
 </p>
 Последние два примера поясняются равенством — основным уравнением арифметики: 100 = 35 * 2 + 30
 
 Имеет место приоритет операций как в математике
 
 <p align="center">
-  <img src="python_screenshot_6.png">
+  <img src="./python_screenshots/python_screenshot_6.png">
 </p>
 
 Также в python есть множество встроенных операций:
@@ -88,17 +88,17 @@ print(5 > 10)  # два числа сравниваются, результат�
 * pow возводит в первый параметр в степень второго параметра
 
 <p align="center">
-  <img src="python_screenshot_7.png">
+  <img src="./python_screenshots/python_screenshot_7.png">
 </p>
 <p align="center">
-  <img src="python_screenshot_8.png">
+  <img src="./python_screenshots/python_screenshot_8.png">
 </p>
 
 * round округляет
 1. По правилам математики
 
 <p align="center">
-  <img src="python_screenshot_9.png">
+  <img src="./python_screenshots/python_screenshot_9.png">
 </p>
 
 2. Также в round можно передать разряд, до которого нужно округлить, по правилу нумерации разрядов:
@@ -106,73 +106,73 @@ print(5 > 10)  # два числа сравниваются, результат�
 если нужно округлить до сотых
 
 <p align="center">
-  <img src="python_screenshot_10.png">
+  <img src="./python_screenshots/python_screenshot_10.png">
 </p>
 
 до тысячных
 
 <p align="center">
-  <img src="python_screenshot_11.png">
+  <img src="./python_screenshots/python_screenshot_11.png">
 </p>
 
 до десятых
 
 <p align="center">
-  <img src="python_screenshot_12.png">
+  <img src="./python_screenshots/python_screenshot_12.png">
 </p>
 
 до целого
 
 <p align="center">
-  <img src="python_screenshot_13.png">
+  <img src="./python_screenshots/python_screenshot_13.png">
 </p>
 
 до целых десятков
 
 <p align="center">
-  <img src="python_screenshot_14.png">
+  <img src="./python_screenshots/python_screenshot_14.png">
 </p>
 
 <p align="center">
-  <img src="python_screenshot_15.png">
+  <img src="./python_screenshots/python_screenshot_15.png">
 </p>
 
 до целых сотен
 
 <p align="center">
-  <img src="python_screenshot_16.png">
+  <img src="./python_screenshots/python_screenshot_16.png">
 </p>
 
 <p align="center">
-  <img src="python_screenshot_17.png">
+  <img src="./python_screenshots/python_screenshot_17.png">
 </p>
 
 до целых тысяч
 
 <p align="center">
-  <img src="python_screenshot_18.png">
+  <img src="./python_screenshots/python_screenshot_18.png">
 </p>
 
 <p align="center">
-  <img src="python_screenshot_19.png">
+  <img src="./python_screenshots/python_screenshot_19.png">
 </p>
 
     Еще раз про нумерацию разрядов чисел в python на примере числа 123.456. По указанному в качестве второго параметра функции round номеру происходит округление. Следовательно по умолчанию стоит ноль.
 
 <p align="center">
-  <img src="python_screenshot_20.png">
+  <img src="./python_screenshots/python_screenshot_20.png">
 </p>
 
 * также существует функция type, которая возвращает тип объекта
 
 <p align="center">
-  <img src="python_screenshot_21.png">
+  <img src="./python_screenshots/python_screenshot_21.png">
 </p>
 
 Внутри функций можно использовать другие функции
 
 <p align="center">
-  <img src="python_screenshot_22.png">
+  <img src="./python_screenshots/python_screenshot_22.png">
 </p>
 
     В python есть большое количество реализованных математических функций. подробнее о них можно почитать по ссылке на встроенный модуль math:
@@ -182,4 +182,3 @@ print(5 > 10)  # два числа сравниваются, результат�
 русифицированная документация: [https://docs-python.ru/standart-library/modul-math-python/](https://docs-python.ru/standart-library/modul-math-python/)
 
 ## Переменные. Оператор присваивания
-
