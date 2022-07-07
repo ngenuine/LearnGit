@@ -1,6 +1,6 @@
 <i><h1 align="center"> Python synopsys </h1></i>
 
-## Кратко о том, как тут все устроено. + мотивация
+## Кратко о том, как тут все устроено. + мотивация 07/07/2022
 Как сделать, чтобы по итогу можно было искать по конспекту информацию? И надо ли. Есть ли какая-то внутритекстовая ссылочность в markdown? Может, сделать конспект сборником ссылок на хорошие статьи по теме?
 
 как плюс можно сказать, что:
@@ -183,3 +183,91 @@ print(5 > 10)  # два числа сравниваются, результат�
 
 ## Переменные. Оператор присваивания
 
+почитать про markdown у крутецкого автора, возможно приобрести книгу за 5$
+https://www.markdownguide.org/getting-started/
+
+первая строка. <br>
+<br>
+<br>
+<br>
+вторая строка
+
+> quote
+>
+>> quite
+
+* 1968\. is a great year
+* sdfsdf234 234   df23
+* dfsdf
+
+At the command prompt, type `nano`.
+
+``Use `code` in your Markdown file.``
+
+***
+---
+___
+https://www.markdownguide.org
+
+fake@example.com
+
+> :warning: **Warning:** Do not push the big red button.
+
+> :memo: **Note:** Sunrises are beautiful.
+
+> :bulb: **Tip:** Remember to appreciate the little things in life.
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title |
+| List        | Here's a list! <ul><li>Item one.</li><li>Item two.</li></ul> |
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+X^2^
+
+H~2~O
+
+H<sub>2</sub>O
+X<sup>2</sup>
+
+`http://www.example.com`
+
+
+---
+
+author: Sergei Malykhin
+
+title: Awesome Markdown Presentation!
+
+institute: Habr
+
+theme: Berlin
+
+---
+
+# Slide 1
+This is my first slide
+
+# Slide 2
+
+$a^2 + b^2 = c^2$
+
+```mermaid
+graph TD
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
+```
